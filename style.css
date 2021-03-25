@@ -1,3 +1,40 @@
 #desc {
     text-align: center;
+    background-color: blue;
+    color: rgb(226, 226, 226);
+    padding-top: 5px;
+}
+
+#cal{
+
+    text-align: center;
+}
+
+table {
+    width: 75%;
+}
+td, th {
+    border: 1px solid black;
+}
+
+th {
+    background-color: royalblue;
+}
+
+
+
+#time{
+    width: 100px;
+    height: 3rem;
+    background-color: rgba(255, 0, 0, 0.459);
+}
+
+#note{
+    font-size: large;
+    width:99%;
+    height: 3rem;
+}
+
+#note:focus {
+    background-color: rgba(112, 128, 144, 0.164);
 }
