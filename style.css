@@ -5,13 +5,16 @@
     padding-top: 5px;
 }
 
-#cal{
+#todayBtn{
+    background-color: rgb(226, 226, 226);
+}
 
+#cal{
     text-align: center;
 }
 
 table {
-    width: 75%;
+    width: 100%;
 }
 td, th {
     border: 1px solid black;
@@ -21,20 +24,26 @@ th {
     background-color: royalblue;
 }
 
-
-
 #time{
     width: 100px;
     height: 3rem;
     background-color: rgba(255, 0, 0, 0.459);
 }
 
-#note{
+.note{
     font-size: large;
     width:99%;
     height: 3rem;
 }
-
-#note:focus {
+.note:focus {
     background-color: rgba(112, 128, 144, 0.164);
+}
+
+.submit {
+    width: 9%;
+    height: 3rem;
+    background-color: rgba(6, 170, 20, 0.452);
+}
+.submit:active {
+    background-color: rgba(6, 170, 20, 0.7);
 }

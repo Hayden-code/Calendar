@@ -10,7 +10,8 @@
     <header id="desc">
         <h1>WORK DAY SCEDULE</h1>
         <h2>A simple planner for keeping track of tasks at work.</h2>
-        <h2 id="currentTime"></h2>
+        <h2 id="currentTime" onclick="changeDate()"></h2>
+        <input type="button" value="Today" id="todayBtn" onclick="revertToToday()">
         <hr>
     </header>
     <div id="cal">
@@ -21,38 +22,47 @@
             </tr>
             <tr>
                 <td id="time">9am</td>
-                <td><input type="text" id="note"></td>
+                <td><input type="text" class="note" id="9am"></td>
+                <td onclick="storeNote('9am')" class="submit">SUBMIT</td>
             </tr>
             <tr>
                 <td id="time">10am</td>
-                <td><input type="text" id="note"></td>
+                <td><input type="text" class="note" id="10am"></td>
+                <td onclick="storeNote('10am')" class="submit">SUBMIT</td>
             </tr>
             <tr>
                 <td id="time">11am</td>
-                <td><input type="text" id="note"></td>
+                <td><input type="text" class="note" id="11am"></td>
+                <td onclick="storeNote('11am')" class="submit">SUBMIT</td>
             </tr>
                 <td id="time">12pm</td>
-                <td><input type="text" id="note"></td>
+                <td><input type="text" class="note" id="12pm"></td>
+                <td onclick="storeNote('12pm')" class="submit">SUBMIT</td>
             </tr>
             <tr>
                 <td id="time">1pm</td>
-                <td><input type="text" id="note"></td>
+                <td><input type="text" class="note" id="1pm"></td>
+                <td onclick="storeNote('1pm')" class="submit">SUBMIT</td>
             </tr>
             <tr>
                 <td id="time">2pm</td>
-                <td><input type="text" id="note"></td>
+                <td><input type="text" class="note" id="2pm"></td>
+                <td onclick="storeNote('2pm')" class="submit">SUBMIT</td>
             </tr>
             <tr>
                 <td id="time">3pm</td>
-                <td><input type="text" id="note"></td>
+                <td><input type="text" class="note" id="3pm"></td>
+                <td onclick="storeNote('3pm')" class="submit">SUBMIT</td>
             </tr>
             <tr>
                 <td id="time">4pm</td>
-                <td><input type="text" id="note"></td>
+                <td><input type="text" class="note" id="4pm"></td>
+                <td onclick="storeNote('4pm')" class="submit">SUBMIT</td>
             </tr>
             <tr>
                 <td id="time">5pm</td>
-                <td><input type="text" id="note"></td>
+                <td><input type="text" class="note" id="5pm"></td>
+                <td onclick="storeNote('5pm')" class="submit">SUBMIT</td>
             </tr>
         </table>
     </div>
